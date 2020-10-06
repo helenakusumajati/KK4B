@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: all;
+}
+a{
+	color: inherit;
+	text-decoration: none; 
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 25px 0px;
+	color: #A93226;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 25px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #A93226;
+	color: #fff;
+}
+.about img{
+	width: 146px;
+}
+.active{
+	background-color: #A93226;
+	color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url('banner.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 	
+.banner:after{
+	content: '';
+	position: absolute;
+	top: 0; 
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(169, 50, 38, .6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+}
+.order h4{
+	color: #666;
+}
+.order ul li{
+	color: #666;
+}
+.container2 ul{
+	text-align: center;
+}
+.container2 ul li{
+	display: inline-block;
+	margin-bottom: 25px;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	color: #A93226; 
+	margin-bottom: 30px;
+}
+section h4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+section h5{
+	float: center;
+	padding: 15px 15px;
+	background-color: #A93226;
+	color: #fff;
+	margin top: 30px;
+	text-align: center;
+	font-size: 15px;
+}
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+footer{
+	padding: 30px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+section h1{
+	text-align: center;
+	color: #666;
+	margin-bottom: 25px;
+}
+section img{
+	width: 500px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+section h2{
+	text-align: center;
+	color: #A93226
+	margin-bottom: 10px;
+}
+.best h1{
+	text-align: center;
+	color: #666;
+	margin-bottom: 25px;
+}
+.best img{
+	width: 500px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+.best h2{
+	text-align: center;
+	color: #A93226
+	margin-bottom: 20px;
+}
